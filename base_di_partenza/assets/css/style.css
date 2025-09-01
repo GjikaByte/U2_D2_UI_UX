@@ -212,6 +212,13 @@ footer a { color: fuchsia; }
     }
     h1 { font-size: 3rem; }
     section h2, aside h2 { font-size: 2.4rem; }
+
+    article iframe,
+    article > section {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(50% - 8px); /* margine per lo spazio tra tag */
+    }
 }
 
 /* ====================
