@@ -121,10 +121,6 @@ i.fas.fa-caret-up { bottom: 150px; }
 i.far.fa-calendar { bottom: 200px; }  
 i.fas.fa-plus     { bottom: 250px; } 
 
-
-
-
-
 @media screen and (min-width: 800px) {
   header {
     padding: 1em;
