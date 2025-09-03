@@ -21,23 +21,27 @@ body{
 }
 
 /* ---------- Header nav (pills) ---------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 header > #light_yellow{
   display:flex;
   align-items:center;
   justify-content:center;
-  gap: 15px;
+  gap: 10px;
   background: #FBF6E6;
-  margin: 12px auto 20px;
-  padding: 28px 36px;
   border-radius: 9999px;
   max-width: 1050px;
 }
 
 header > #light_yellow > div{
-  display:inline-flex;
+  display:flex;
   align-items:center;
   justify-content:center;
-  padding: 14px 26px;
   background: #EFD76A;
   color: #7b4a33;
   font-weight: 650;
@@ -47,7 +51,7 @@ header > #light_yellow > div{
 }
 
 header > #light_yellow > div:nth-child(3){
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 22px 56px;
@@ -186,8 +190,6 @@ header > #light_yellow > div:hover{
   justify-content:center;
   gap: 23px;
   background: #FBF6E6;
-  margin: 12px auto 20px;
-  padding: 28px 36px;
   border-radius: 9999px;
   max-width: 1050px;
 }
